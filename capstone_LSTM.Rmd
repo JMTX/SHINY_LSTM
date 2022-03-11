@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - The choosen model is mainly based on a LSTM (Long Short Term Memory) block which is an artificial recurrent neural network (RNN) architecture allowing to take into account the previous words of a sentence for the prediction of the next one.
 
-- The model is composed of different layer:
+- The model is composed of different layers:
 
 
     1) Words to Integers + embedding: this layer allow to transform a word into an integer ( word's index in a dictionnary) and then into a dense vector to feed the LSTM block
