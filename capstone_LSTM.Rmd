@@ -51,7 +51,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - In the green area, the potential next words and their probabilities are shown.
 
-- Remark: When you load the app, you have to wait several seconds (time to see the next words probabilities example)
+<font color="red">
+
+- Important: the application loading time only finished when the probability table appears (green) thus please wait 10 to 30 secs before using the application. After each prediction take 1 s.
+
+</font></font>
 ![](./figures/shiny_LSTM.jpg){width=50%}
 
 
